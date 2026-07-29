@@ -1,0 +1,21 @@
+/* styles/print-toc.css */
+
+@media print {
+  /* Ensure sidebar TOC containers are visible */
+  #quarto-sidebar-toc-left,
+  #quarto-margin-sidebar,
+  .sidebar {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  /* Ensure the TOC content itself prints */
+  #TOC,
+  .quarto-page-toc,
+  nav[role="doc-toc"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
