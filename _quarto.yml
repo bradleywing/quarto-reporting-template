@@ -13,6 +13,7 @@ format:
     theme: styles/report-html.scss
     css:
       - styles/fontawesome/css/all.min.css
+      - styles/print-toc.css
     output-dir: _output/html
     toc: false
     page-layout: full
